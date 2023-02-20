@@ -58,7 +58,7 @@ namespace kursovayarabota
         private void button5_Click(object sender, EventArgs e)
         {
             DataRow row = kursDataSet.Tables["zakazi"].NewRow();
-            row["zakazid"] = textBox13.Text;
+            //row["zakazid"] = textBox13.Text;
             row["zakazname"] = textBox12.Text;
             row["zakazauthor"] = textBox11.Text;
             row["zakazfio"] = textBox10.Text;

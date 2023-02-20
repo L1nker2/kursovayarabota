@@ -77,7 +77,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Admin_menu";
-            this.Text = "Admin_menu";
+            this.Text = "Меню";
             this.ResumeLayout(false);
             this.PerformLayout();
 
