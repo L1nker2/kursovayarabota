@@ -113,7 +113,7 @@
             this.zakaziDataGridView.Name = "zakaziDataGridView";
             this.zakaziDataGridView.RowHeadersWidth = 51;
             this.zakaziDataGridView.RowTemplate.Height = 24;
-            this.zakaziDataGridView.Size = new System.Drawing.Size(1142, 220);
+            this.zakaziDataGridView.Size = new System.Drawing.Size(687, 220);
             this.zakaziDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn2
@@ -160,7 +160,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label1.Location = new System.Drawing.Point(1157, 12);
+            this.label1.Location = new System.Drawing.Point(436, 239);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 18);
             this.label1.TabIndex = 2;
@@ -169,7 +169,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.textBox1.Location = new System.Drawing.Point(1160, 32);
+            this.textBox1.Location = new System.Drawing.Point(439, 259);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 24);
             this.textBox1.TabIndex = 3;
@@ -177,7 +177,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button1.Location = new System.Drawing.Point(1160, 61);
+            this.button1.Location = new System.Drawing.Point(439, 288);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 23);
             this.button1.TabIndex = 4;
@@ -201,17 +201,18 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(13, 239);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 391);
+            this.groupBox1.Size = new System.Drawing.Size(200, 343);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Редактирование записей";
             // 
             // button3
             // 
+            this.button3.AutoSize = true;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button3.Location = new System.Drawing.Point(6, 303);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 26);
+            this.button3.Size = new System.Drawing.Size(187, 28);
             this.button3.TabIndex = 13;
             this.button3.Text = "Сохранить";
             this.button3.UseVisualStyleBackColor = true;
@@ -340,18 +341,19 @@
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Location = new System.Drawing.Point(230, 239);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 391);
+            this.groupBox2.Size = new System.Drawing.Size(200, 343);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Добавление заказа";
             // 
             // button6
             // 
+            this.button6.AutoSize = true;
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button6.Location = new System.Drawing.Point(100, 303);
             this.button6.Name = "button6";
             this.button6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.button6.Size = new System.Drawing.Size(86, 26);
+            this.button6.Size = new System.Drawing.Size(93, 28);
             this.button6.TabIndex = 28;
             this.button6.Text = "Удалить";
             this.button6.UseVisualStyleBackColor = true;
@@ -359,10 +361,11 @@
             // 
             // button4
             // 
+            this.button4.AutoSize = true;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.button4.Location = new System.Drawing.Point(6, 303);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(91, 26);
+            this.button4.Size = new System.Drawing.Size(92, 28);
             this.button4.TabIndex = 27;
             this.button4.Text = "Сохранить";
             this.button4.UseVisualStyleBackColor = true;
@@ -473,7 +476,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.BackColor = System.Drawing.Color.Aquamarine;
+            this.ClientSize = new System.Drawing.Size(711, 589);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);

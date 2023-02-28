@@ -108,10 +108,11 @@
             // 
             // button1
             // 
+            this.button1.AutoSize = true;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button1.Location = new System.Drawing.Point(197, 134);
+            this.button1.Location = new System.Drawing.Point(197, 132);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 28);
             this.button1.TabIndex = 5;
             this.button1.Text = "Войти";
             this.button1.UseVisualStyleBackColor = true;
@@ -121,6 +122,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(375, 180);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);

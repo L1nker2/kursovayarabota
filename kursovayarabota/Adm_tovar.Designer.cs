@@ -132,7 +132,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label1.Location = new System.Drawing.Point(714, 32);
+            this.label1.Location = new System.Drawing.Point(409, 406);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(134, 18);
             this.label1.TabIndex = 2;
@@ -141,7 +141,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.button1.Location = new System.Drawing.Point(717, 80);
+            this.button1.Location = new System.Drawing.Point(412, 454);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(121, 23);
             this.button1.TabIndex = 3;
@@ -152,7 +152,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.textBox1.Location = new System.Drawing.Point(717, 52);
+            this.textBox1.Location = new System.Drawing.Point(412, 426);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 24);
             this.textBox1.TabIndex = 4;
@@ -169,7 +169,7 @@
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Location = new System.Drawing.Point(12, 406);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 294);
+            this.groupBox1.Size = new System.Drawing.Size(200, 261);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Редактирование записей";
@@ -265,9 +265,9 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Location = new System.Drawing.Point(366, 406);
+            this.groupBox2.Location = new System.Drawing.Point(218, 406);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(185, 294);
+            this.groupBox2.Size = new System.Drawing.Size(185, 261);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Добавление товара";
@@ -365,7 +365,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.BackColor = System.Drawing.Color.Aquamarine;
+            this.ClientSize = new System.Drawing.Size(715, 672);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox1);

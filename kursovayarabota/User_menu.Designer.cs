@@ -47,9 +47,9 @@
             // 
             this.button1.AutoSize = true;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.button1.Location = new System.Drawing.Point(13, 63);
+            this.button1.Location = new System.Drawing.Point(18, 63);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(81, 30);
+            this.button1.Size = new System.Drawing.Size(248, 30);
             this.button1.TabIndex = 1;
             this.button1.Text = "Товары";
             this.button1.UseVisualStyleBackColor = true;
@@ -59,6 +59,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aquamarine;
             this.ClientSize = new System.Drawing.Size(276, 119);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
